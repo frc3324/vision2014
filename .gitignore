@@ -1,3 +1,4 @@
 *.o
 rapsicam_cvwindow
+*.swp
 
