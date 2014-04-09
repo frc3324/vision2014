@@ -224,17 +224,17 @@ void process(int inp) {
 }
 
 int main(int argc, char **argv) {
-	/*int option;
+	int option;
 	while ( (option = getopt(argc, argv, "gs:")) != -1) {
 		switch (option) {
 		case 'g':
-			use_gui = false;
+			use_gui = true;
 			break;
 		case 's':
 			shutter_speed = atoi(optarg);
 			break;
 		}
-	}*/
+	}
 	printf("VISION: initalizing camera with shutter %d and gui %s\n", shutter_speed, (use_gui ? "on" : "off"));
 	raspicam::RaspiCam_Cv camera;
 	{
