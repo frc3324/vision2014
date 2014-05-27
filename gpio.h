@@ -1,4 +1,4 @@
-//#ifndef GPIO_H
+#ifndef GPIO_H
 #define GPIO_H
 
 extern int GPIOExport(int pin);
@@ -16,4 +16,4 @@ const int HIGH = 1;
 const int PIN  = 24; /* P1-18 */
 const int POUT = 4;  /* P1-07 */
 
-//#endif
+#endif
